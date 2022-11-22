@@ -56,6 +56,12 @@
             >
           </li>
         </ul>
+
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="" width="24" height="16">
+            <use href="./svg/symbol-defs.svg#mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- Фільтри -->
@@ -95,7 +101,21 @@
                         ./images/portfolio/img-dsc1@2x.jpg 2x
                       "
                     />
-                    <img src="./images/portfolio/img-dsc1@1x.jpg" alt="Примірник Веб-сайту" />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab1@1x.jpg 1x,
+                        ./images/portfolio/img-tab1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob1@1x.jpg 1x,
+                        ./images/portfolio/img-mob1@2x.jpg 2x
+                      "
+                    />
+                    <img src="./images/portfolio/img-mob1@1x.jpg" alt="Примірник Веб-сайту" />
                   </picture>
                   <div class="examples__overlay">
                     <p class="examples__overlay-descr">
@@ -124,7 +144,21 @@
                         ./images/portfolio/img-dsc2@2x.jpg 2x
                       "
                     />
-                    <img src="./images/portfolio/img-dsc2@1x.jpg" alt="Примірник постеру" />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab2@1x.jpg 1x,
+                        ./images/portfolio/img-tab2@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob2@1x.jpg 1x,
+                        ./images/portfolio/img-mob2@2x.jpg 2x
+                      "
+                    />
+                    <img src="./images/portfolio/img-mob2@1x.jpg" alt="Примірник постеру" />
                   </picture>
                   <div class="examples__overlay">
                     <p class="examples__overlay-descr">
@@ -151,7 +185,19 @@
                         ./images/portfolio/img-dsc3@1x.jpg 1x,
                         ./images/portfolio/img-dsc3@2x.jpg 2x
                       " />
-                    <img src="./images/portfolio/img-dsc3@1x.jpg" alt="Логотип додатку ресторана"
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab3@1x.jpg 1x,
+                        ./images/portfolio/img-tab3@2x.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob3@1x.jpg 1x,
+                        ./images/portfolio/img-mob3@2x.jpg 2x
+                      " />
+                    <img src="./images/portfolio/img-mob3@1x.jpg" alt="Логотип додатку ресторана"
                   /></picture>
 
                   <div class="examples__overlay">
@@ -180,7 +226,21 @@
                         ./images/portfolio/img-dsc4@2x.jpg 2x
                       "
                     />
-                    <img src="./images/portfolio/img-dsc4@1x.jpg" alt="Логотип маркетинг-проекту" />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab4@1x.jpg 1x,
+                        ./images/portfolio/img-tab4@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob4@1x.jpg 1x,
+                        ./images/portfolio/img-mob4@2x.jpg 2x
+                      "
+                    />
+                    <img src="./images/portfolio/img-mob4@1x.jpg" alt="Логотип маркетинг-проекту" />
                   </picture>
 
                   <div class="examples__overlay">
@@ -210,7 +270,21 @@
                         ./images/portfolio/img-dsc5@2x.jpg 2x
                       "
                     />
-                    <img src="./images/portfolio/img-dsc5@1x.jpg" alt="Логотип додатку" />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab5@1x.jpg 1x,
+                        ./images/portfolio/img-tab5@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob5@1x.jpg 1x,
+                        ./images/portfolio/img-mob5@2x.jpg 2x
+                      "
+                    />
+                    <img src="./images/portfolio/img-mob5@1x.jpg" alt="Логотип додатку" />
                   </picture>
 
                   <div class="examples__overlay">
@@ -239,7 +313,21 @@
                         ./images/portfolio/img-dsc6@2x.jpg 2x
                       "
                     />
-                    <img src="./images/portfolio/img-dsc6@1x.jpg" alt="Примірник Веб-сайту" />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab6@1x.jpg 1x,
+                        ./images/portfolio/img-tab6@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob6@1x.jpg 1x,
+                        ./images/portfolio/img-mob6@2x.jpg 2x
+                      "
+                    />
+                    <img src="./images/portfolio/img-mob6@1x.jpg" alt="Примірник Веб-сайту" />
                   </picture>
 
                   <div class="examples__overlay">
@@ -267,8 +355,20 @@
                         ./images/portfolio/img-dsc7@1x.jpg 1x,
                         ./images/portfolio/img-dsc7@2x.jpg 2x
                       " />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab7@1x.jpg 1x,
+                        ./images/portfolio/img-tab7@2x.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob7@1x.jpg 1x,
+                        ./images/portfolio/img-mob7@2x.jpg 2x
+                      " />
                     <img
-                      src="./images/portfolio/img-dsc7@1x.jpg"
+                      src="./images/portfolio/img-mob7@1x.jpg"
                       alt="Примірник розробленого дизайну"
                   /></picture>
 
@@ -297,7 +397,19 @@
                         ./images/portfolio/img-dsc8@1x.jpg 1x,
                         ./images/portfolio/img-dsc8@2x.jpg 2x
                       " />
-                    <img src="./images/portfolio/img-dsc8@1x.jpg" alt="Логотип маркетинг-проекту"
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab8@1x.jpg 1x,
+                        ./images/portfolio/img-tab8@2x.jpg 2x
+                      " />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob8@1x.jpg 1x,
+                        ./images/portfolio/img-mob8@2x.jpg 2x
+                      " />
+                    <img src="./images/portfolio/img-mob8@1x.jpg" alt="Логотип маркетинг-проекту"
                   /></picture>
                   <div class="examples__overlay">
                     <p class="examples__overlay-descr">
@@ -325,7 +437,21 @@
                         ./images/portfolio/img-dsc9@2x.jpg 2x
                       "
                     />
-                    <img src="./images/portfolio/img-dsc9@1x.jpg" alt="Логотип бізнес-додатку" />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img-tab9@1x.jpg 1x,
+                        ./images/portfolio/img-tab9@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 480px)"
+                      srcset="
+                        ./images/portfolio/img-mob9@1x.jpg 1x,
+                        ./images/portfolio/img-mob9@2x.jpg 2x
+                      "
+                    />
+                    <img src="./images/portfolio/img-mob9@1x.jpg" lt="Логотип бізнес-додатку" />
                   </picture>
 
                   <div class="examples__overlay">
@@ -380,8 +506,6 @@
           </address>
         </div>
 
-        <!--  -->
-
         <div class="footer__item join-us">
           <h3 class="join-us__title">Приєднуйтесь</h3>
           <ul class="join-us__list">
@@ -432,8 +556,6 @@
           </ul>
         </div>
 
-        <!--  -->
-
         <div class="subscribe">
           <h3 class="subscribe__title">Підпишіться на розсилку</h3>
           <div class="subscribe__item">
@@ -450,5 +572,79 @@
         </div>
       </div>
     </footer>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="mobile-menu-close" width="40" height="40">
+          <use href="./svg/symbol-defs.svg#mobile-menu-close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <div>
+          <li class="mobile-menu-item">
+            <a href="./index.html" class="mobile-menu-nav">Студія</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="./portfolio.html" class="mobile-menu-nav link--accent">Портфоліо</a>
+          </li>
+          <li class="mobile-menu-item"><a href="#" class="mobile-menu-nav">Контакти</a></li>
+        </div>
+        <div>
+          <li class="mobile-menu-item">
+            <a href="tel:+38 0961111111" class="mobile-menu-phone">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="mailto:info@devstudio.com" class="mobile-menu-mail">info@devstudio.com</a>
+          </li>
+          <ul class="mobile-menu-socials">
+            <li class="mobile-menu-socials-item">
+              <a
+                class="mobile-menu-link"
+                href="https://instagram.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Instagram</a
+              >
+            </li>
+            <li class="mobile-menu-socials-item">
+              <a
+                class="mobile-menu-link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Twitter</a
+              >
+            </li>
+            <li class="mobile-menu-socials-item">
+              <a
+                class="mobile-menu-link"
+                href="https://facebook.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                >Facebook</a
+              >
+            </li>
+            <li class="mobile-menu-socials-item">
+              <a
+                class="mobile-menu-link"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noreferrer noopener"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

@@ -1,7 +1,12 @@
 .selection {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
+
+  @media screen and (max-width: 767px) {
+    justify-content: left;
+  }
 }
 
 .selection__button {
