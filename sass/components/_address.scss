@@ -1,0 +1,29 @@
+.address {
+  margin-top: 20px;
+}
+
+.address__item {
+  display: block;
+  margin-top: 9px;
+}
+
+.address__link {
+  display: block;
+}
+
+.address__link {
+  color: var(--primary-white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address__link--transparent {
+  color: rgba(255, 255, 255, 0.6);
+}

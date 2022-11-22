@@ -1,0 +1,31 @@
+.header {
+  align-items: center;
+  padding-left: 0;
+  background-color: var(--primary-white-color);
+  border-bottom: 1px solid #ececec;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  // max-width: 480px;
+  @media screen and (min-width: 200px) and (max-width: 767px) {
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+  }
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: normal;
+  }
+}
